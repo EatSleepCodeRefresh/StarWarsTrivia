@@ -55,7 +55,9 @@ public class StarWarsTrivia
 							"(13) " + a13 + "\n" +
 							"(14) " + a14;
 							
-		//Prompt for question
+		//Prompt for questions
+		
+//QUESTION 1-------------------------------------------------------------------------------------
 		entry = JOptionPane.showInputDialog(null, q1 + answerList);
 		answer = Integer.parseInt(entry);
 		
@@ -67,7 +69,7 @@ public class StarWarsTrivia
 		JOptionPane.showMessageDialog(null, "The force is strong in you!");
 		
 		
-//------------------------------------------------------------------------------------------
+//QUESTION 2-------------------------------------------------------------------------------------
 		entry = JOptionPane.showInputDialog(null, q2 + answerList);
 		answer = Integer.parseInt(entry);
 		while(answer != 2)
@@ -78,7 +80,7 @@ public class StarWarsTrivia
 		JOptionPane.showMessageDialog(null, "The force is strong in you!");
 		
 		
-//-------------------------------------------------------------------------------------------
+//QUESTION 3-------------------------------------------------------------------------------------
 		entry = JOptionPane.showInputDialog(null, q3 + answerList);
 		answer = Integer.parseInt(entry);
 		
@@ -90,7 +92,7 @@ public class StarWarsTrivia
 		JOptionPane.showMessageDialog(null, "The force is strong in you!");
 		
 		
-//--------------------------------------------------------------------------------------------
+//QUESTION 4-------------------------------------------------------------------------------------
 
 		entry = JOptionPane.showInputDialog(null, q4 + answerList);
 		answer = Integer.parseInt(entry);
